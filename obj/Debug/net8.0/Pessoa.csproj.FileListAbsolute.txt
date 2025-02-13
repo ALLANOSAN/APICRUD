@@ -271,3 +271,4 @@ E:/Rest_API/Pessoa/obj/Debug/net8.0/ref/Pessoa.dll
 /home/allan/Rest_Api/Pessoa/obj/Debug/net8.0/Pessoa.pdb
 /home/allan/Rest_Api/Pessoa/obj/Debug/net8.0/Pessoa.genruntimeconfig.cache
 /home/allan/Rest_Api/Pessoa/obj/Debug/net8.0/ref/Pessoa.dll
+/home/allan/Rest_Api/Pessoa/obj/Debug/net8.0/Pessoa.sourcelink.json
