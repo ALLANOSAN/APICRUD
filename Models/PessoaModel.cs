@@ -1,4 +1,4 @@
-namespace Pessoa.Models;
+namespace APICRUD.Models;
 
 public class PessoaModel
 {
