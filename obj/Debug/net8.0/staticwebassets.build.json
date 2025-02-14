@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "WP6qve+p4sFBlWiAjaorDeRZBLXF4JrmDvoUoTtdpvU=",
+  "Hash": "sCBJ3nRaDemzeSBYs8BORxejhFjylX53Wsq2rkfgK9Y=",
   "Source": "Pessoa",
   "BasePath": "_content/Pessoa",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

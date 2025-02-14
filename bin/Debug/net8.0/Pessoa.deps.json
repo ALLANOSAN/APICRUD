@@ -11,7 +11,6 @@
           "Humanizer.Core": "2.14.1",
           "Microsoft.AspNetCore.OpenApi": "8.0.13",
           "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
-          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
           "Microsoft.CodeAnalysis.CSharp": "4.12.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.12.0",
           "Microsoft.CodeAnalysis.Common": "4.12.0",
@@ -24,7 +23,6 @@
           "Microsoft.EntityFrameworkCore.Relational": "8.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.13",
-          "Microsoft.Extensions.ApiDescription.Server": "8.0.13",
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
           "Microsoft.Extensions.Caching.Memory": "8.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -88,10 +86,8 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Analyzers/3.11.0": {},
       "Microsoft.CodeAnalysis.Common/4.12.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
           "System.Collections.Immutable": "8.0.0",
           "System.Reflection.Metadata": "8.0.1"
         },
@@ -145,7 +141,6 @@
       },
       "Microsoft.CodeAnalysis.CSharp/4.12.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
           "Microsoft.CodeAnalysis.Common": "4.12.0",
           "System.Collections.Immutable": "8.0.0",
           "System.Reflection.Metadata": "8.0.1"
@@ -201,7 +196,6 @@
       "Microsoft.CodeAnalysis.CSharp.Workspaces/4.12.0": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
           "Microsoft.CodeAnalysis.CSharp": "4.12.0",
           "Microsoft.CodeAnalysis.Common": "4.12.0",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.12.0",
@@ -262,7 +256,6 @@
       "Microsoft.CodeAnalysis.Workspaces.Common/4.12.0": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
           "Microsoft.CodeAnalysis.Common": "4.12.0",
           "System.Collections.Immutable": "8.0.0",
           "System.Composition": "8.0.0",
@@ -398,7 +391,6 @@
           }
         }
       },
-      "Microsoft.Extensions.ApiDescription.Server/8.0.13": {},
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -652,7 +644,6 @@
       },
       "Swashbuckle.AspNetCore/7.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "8.0.13",
           "Swashbuckle.AspNetCore.Swagger": "7.2.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "7.2.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "7.2.0"
@@ -790,13 +781,6 @@
       "path": "microsoft.bcl.asyncinterfaces/8.0.0",
       "hashPath": "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Analyzers/3.11.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-v/EW3UE8/lbEYHoC2Qq7AR/DnmvpgdtAMndfQNmpuIMx/Mto8L5JnuCfdBYtgvalQOtfNCnxFejxuRrryvUTsg==",
-      "path": "microsoft.codeanalysis.analyzers/3.11.0",
-      "hashPath": "microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512"
-    },
     "Microsoft.CodeAnalysis.Common/4.12.0": {
       "type": "package",
       "serviceable": true,
@@ -880,13 +864,6 @@
       "sha512": "sha512-icokw+Wn2H8zbNzh+GyxeoGHl3OJ6CkGZNOHLIkfsvAOl40m2UF1Ny1m9SznrGfZc5FrSqJoxC6NlLsPQ2N5Yg==",
       "path": "microsoft.entityframeworkcore.sqlite.core/8.0.13",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.8.0.13.nupkg.sha512"
-    },
-    "Microsoft.Extensions.ApiDescription.Server/8.0.13": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dTD8HCsAbZkYL3kmvdA/Nf6gNBvic+yM0za2iGS+dzPXfSViMbhOBhEj/Q44lGpSY6CHZGvMFamxBOpHFkyJug==",
-      "path": "microsoft.extensions.apidescription.server/8.0.13",
-      "hashPath": "microsoft.extensions.apidescription.server.8.0.13.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
