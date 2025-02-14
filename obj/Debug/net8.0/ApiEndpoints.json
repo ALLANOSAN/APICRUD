@@ -1,0 +1,24 @@
+[
+  {
+    "ContainingType": "Pessoa.Routers.PessoaRota\u002B\u003C\u003Ec",
+    "Method": "\u003CPessoaRotas\u003Eb__0_0",
+    "RelativePath": "pessoa/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Pessoa.Models.PessoaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

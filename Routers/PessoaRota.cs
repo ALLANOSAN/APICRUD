@@ -1,5 +1,6 @@
 using Pessoa.Models;
 using Pessoa.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Pessoa.Routers;
 
@@ -15,6 +16,12 @@ public static class PessoaRota
             var pessoa = new PessoaModel(req.Nome);
             await context.AddAsync(pessoa);
             await context.SaveChangesAsync();
+        });
+        route.MapGet("", 
+            async (PessoaContext context) =>
+        {
+            var pessoas = await context.Pessoas.ToListAsync();
+            return Results.Ok(pessoas);
         });
     }
 }
