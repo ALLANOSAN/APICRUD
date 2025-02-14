@@ -9,4 +9,9 @@ public class PessoaModel
     }
     public Guid Id { get; init; }
     public string Nome { get; private set; }
+
+    public void TrocaarNome(string nome)
+    {
+        Nome = nome;
+    }
 }

@@ -28,8 +28,15 @@ public static class PessoaRota
             async (Guid id, PessoaRequest req, PessoaContext context) =>
         {
             var pessoa = await context.Pessoas.FirstOrDefaultAsync(x => x.Id == id);
-            pessoa.Nome = req.Nome;
-            await context.SaveChangesAsync();
+            if (pessoa == null)
+                
+                return Results.NotFound();
+                
+                pessoa.TrocaarNome(req.Nome);
+                await context.SaveChangesAsync();
+                
+                return Results.Ok();
+                
         });
     }
 }
