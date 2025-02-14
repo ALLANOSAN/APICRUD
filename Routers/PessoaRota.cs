@@ -23,5 +23,13 @@ public static class PessoaRota
             var pessoas = await context.Pessoas.ToListAsync();
             return Results.Ok(pessoas);
         });
+
+        route.MapPut("{id:guid}",
+            async (Guid id, PessoaRequest req, PessoaContext context) =>
+        {
+            var pessoa = await context.Pessoas.FirstOrDefaultAsync(x => x.Id == id);
+            pessoa.Nome = req.Nome;
+            await context.SaveChangesAsync();
+        });
     }
 }
