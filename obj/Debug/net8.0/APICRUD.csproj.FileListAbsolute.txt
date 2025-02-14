@@ -1,0 +1,8 @@
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.csproj.AssemblyReference.cache
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.AssemblyInfoInputs.cache
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.AssemblyInfo.cs
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.csproj.CoreCompileInputs.cache
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.MvcApplicationPartsAssemblyInfo.cs
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.MvcApplicationPartsAssemblyInfo.cache
+E:\Rest_API\APICRUD\obj\Debug\net8.0\APICRUD.sourcelink.json

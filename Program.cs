@@ -1,5 +1,5 @@
-using Pessoa.Rotas;
-using Pessoa.Data;
+using APICRUD.Rotas;
+using APICRUD.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,16 +1,20 @@
-using APICRUD.Models;
-using APICRUD.Data;
+using Pessoa.Models;
+using Pessoa.Data;
 
-namespace APICRUD.Routers;
+namespace Pessoa.Routers;
 
 public static class PessoaRota
 {
     public static void PessoaRotas(this WebApplication app)
     {
         var route = app.MapGroup("pessoa");
-        route.MapGet("", (PessoaRequest req, PessoaContext context) =>
+        
+        route.MapPost("",
+            async (PessoaRequest req, PessoaContext context) =>
         {
-            return context.Pessoas.Select(p => new { p.Id, p.Nome });
+            var pessoa = new PessoaModel(req.Nome);
+            await context.AddAsync(pessoa);
+            await context.SaveChangesAsync();
         });
     }
 }

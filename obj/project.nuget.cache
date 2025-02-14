@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IS1ecLfko0A=",
+  "dgSpecHash": "mCGhSG1RfAs=",
   "success": true,
-  "projectFilePath": "E:\\Rest_API\\APICRUD\\Pessoa.csproj",
+  "projectFilePath": "E:\\Rest_API\\APICRUD\\APICRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\allan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\allan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.13\\microsoft.aspnetcore.openapi.8.0.13.nupkg.sha512",

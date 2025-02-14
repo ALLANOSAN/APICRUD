@@ -3227,9 +3227,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Rest_API\\APICRUD\\Pessoa.csproj",
-      "projectName": "Pessoa",
-      "projectPath": "E:\\Rest_API\\APICRUD\\Pessoa.csproj",
+      "projectUniqueName": "E:\\Rest_API\\APICRUD\\APICRUD.csproj",
+      "projectName": "APICRUD",
+      "projectPath": "E:\\Rest_API\\APICRUD\\APICRUD.csproj",
       "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
       "outputPath": "E:\\Rest_API\\APICRUD\\obj\\",
       "projectStyle": "PackageReference",
