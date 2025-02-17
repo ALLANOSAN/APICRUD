@@ -32,11 +32,23 @@ public static class PessoaRota
                 
                 return Results.NotFound();
                 
-                pessoa.TrocaarNome(req.Nome);
+                pessoa.TrocarNome(req.Nome);
                 await context.SaveChangesAsync();
                 
-                return Results.Ok();
+                return Results.Ok(pessoa);
                 
+        });
+
+        route.MapDelete("{id:guid}", 
+            async (Guid id, PessoaContext context) =>
+        {
+            var pessoa = await context.Pessoas.FirstOrDefaultAsync(x => x.Id == id);
+            if (pessoa == null)
+                return Results.NotFound();
+
+                pessoa.SetInativo();
+                await context.SaveChangesAsync();                
+                return Results.Ok(pessoa);
         });
     }
 }

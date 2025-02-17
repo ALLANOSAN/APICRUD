@@ -10,8 +10,13 @@ public class PessoaModel
     public Guid Id { get; init; }
     public string Nome { get; private set; }
 
-    public void TrocaarNome(string nome)
+    public void TrocarNome(string nome)
     {
         Nome = nome;
+    }
+
+    public void SetInativo()
+    {
+        Nome = "desativado";
     }
 }
